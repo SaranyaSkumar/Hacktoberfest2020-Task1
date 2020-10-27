@@ -13,7 +13,7 @@ int main()
     printf("%d",&age);
     printf("Rate your programmings skills from A-D (A being the highest and D being the lowest : ");//Get user skill level
     scanf(" %c",&skill);
-    scanf("Thank you %c Happy Hacking",country);//Thank the user
+    scanf("Thank you %c Happy Hacking",&country);//Thank the user
 
     return 0;
 }
